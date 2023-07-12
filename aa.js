@@ -118,7 +118,7 @@ for (let ca of categories) {
 }
 for (let uch of arr) { for (let ca of categories) {
     if(uch.info.faculity.toLowerCase()===ca.course.toLowerCase().trim())
-    {ca.imya.push(uch["name"]) 
+    {ca.imya.push(uch.name) 
     ca.count++}
 }}
 console.log(categories)
