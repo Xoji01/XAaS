@@ -117,7 +117,7 @@ for (let ca of categories) {
     ca.names=[]
 }
 for (let uch of arr) { for (let ca of categories) {
-    if(uch.info.faculity.toLowerCase()===ca.course.trim().toLowerCase())
+    if(uch.info.faculity.toLowerCase()===ca.course.toLowerCase().trim())
     {ca.names.push(uch["name"]) 
     ca.count++}
 }}
